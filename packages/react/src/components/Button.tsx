@@ -54,8 +54,9 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
+          color: '$gray200',
           borderColor: '$gray200',
-          cursor: '$gray200',
+          cursor: 'not-allowed',
         },
       },
 
