@@ -1,12 +1,13 @@
 {
   "name": "@ignite-ui/docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -28,6 +29,7 @@
     "@storybook/blocks": "^8.2.6",
     "@storybook/react": "^8.2.6",
     "@storybook/react-vite": "^8.2.6",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.2.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
