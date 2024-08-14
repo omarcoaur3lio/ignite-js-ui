@@ -12,5 +12,5 @@
     "turbo": "^2.0.9"
   },
   "packageManager": "npm@10.8.2",
-  "name": "ignite-ui-turbo"
+  "name": "ignite-js-ui-turbo"
 }
