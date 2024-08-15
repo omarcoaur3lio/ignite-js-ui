@@ -25,7 +25,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, {configType}) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/ignite-call/'
+      config.base = '/ignite-js-ui/'
     }
     return config
   }
