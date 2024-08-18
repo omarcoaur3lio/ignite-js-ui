@@ -8,15 +8,15 @@
   <a aria-label="Completed" href="https://rocketseat.com.br/">
     <img src="https://img.shields.io/badge/Ignite-0D1117?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAYAAABw65OnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgBxZc9UsMwEIVfoKHkCHsEH8E3CC0VvgG5gc0NcgP7BpTQ+QgOHZ2hpIKSLkgjeSIS2aOftfTNvImTGUVPq92VvEE6OqGt0EHoR+hNPx+QiFroOKMGCSgXDIxCt1iJUktO0C8YIKxEgfmVmyqmAdfghYRe4BbiL/35AWYGuEXB1A6M1AEGWPPiMcDAkdMABRpg2waCCqmvgT0Y6QMMDPBgqmNZbs9QK25x2sc6wIBXIhbGoG/Ln4VE4F+DcmEXOMmSGnjSMRsISsSYSMjEM7dwRAQEtzZsTtgYYyuo3CEwUGG+F3RQ1UNCd1gJOcFWT7JHZKLFIMPdaiOkn1lPPhcanBLsAZk4rxTZPQmJ6WFPyhpMuFzvurPv8p3hVehGaCP0jgSYVSHzwqv/uzAXCYK6Lcnaf4K6lP4K3SPRygkRxy8XDS6TsMWKXFl+s/WCTyQ0UcEe+qiT0BdbT+iQEMptALi8TXXIwJjbgGxKQ04DE2NuA3VOA7JPENRpWCEjJTLzBwzMMNX+FpToAAAAAElFTkSuQmCC&labelColor=E1E1E6&logoColor=0D1117"></img>
 </a>
-    <a href="./README_en.md">
-    <img alt="Read in english" src="https://img.shields.io/badge/-Read in english-0D1117?style=flat&logo=google-translate&logoColor=0D1117&labelColor=E1E1E6" />
+    <a href="./README.md">
+    <img alt="Leia em português" src="https://img.shields.io/badge/-Leia em português-0D1117?style=flat&logo=google-translate&logoColor=0D1117&labelColor=E1E1E6" />
 </a>
 </p>
 
-## :speech_balloon: Visão Geral
+## :speech_balloon: Overview
 
-Esse projeto foi construído durante o programa Ignite da [Rocketseat](www.rocketseat.com.br) e teve como objetivo construir um design system para o projet Ignite Call. <br />
-O DS foi desenvolvido em um monorepo composto pelos pacotes de tokens (cores, tamanhos, tipografia, espaçamentos, etc...), configuração (TypeScript e ESLint), componentes (desenvolvidos com ReacJS) e documentação dos componentes (Storybook).
+This project was built during the [Rocketseat](www.rocketseat.com.br) Ignite program and aimed to build a design system for the Ignite Call project. <br />
+The DS was developed in a monorepo composed of token packages (colors, sizes, typography, spacing, etc...), configuration (TypeScript and ESLint), components (developed with ReacJS) and component documentation (Storybook).
 
 ## :camera: Preview
 
@@ -25,21 +25,22 @@ O DS foi desenvolvido em um monorepo composto pelos pacotes de tokens (cores, ta
 </div>
 
 
-### Assuntos estudados
+### Subjects
 
-A seguir, alguns dos conceitos postos em prática durante o desenvolvimento:
+Below are some of the concepts put into practice during development:
 
-- Criação e utilização de monorepos
-  - Utilização do Turborepo
-    - Utilização de cache e remote caching
-- Criação e reutilização de componentes
-  - Documentação dos componentes com o Storybook
-  - CSS-in-JS com Stitches
-- Publicação de pacotes no NPM
-- Gerenciamento de versões e CI/CD no NPM com changesets
-- CI/CD com Github Actions
+- Creating and using monorepos
+  - Using Turborepo
+    - Using cache and remote caching
+- Creating and reusing components
+  - Documenting components with Storybook
+  - CSS-in-JS with Stitches
+- Publishing packages on NPM
+  - Version management and CI/CD on NPM with changesets
+- CI/CD with Github Actions
 
-## :rocket: Tecnologias Utilizadas
+
+## :rocket: Technologies
 
   <a href="https://react.dev/">
     <img alt="reactjs" src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%FF5C00" />
@@ -64,5 +65,5 @@ A seguir, alguns dos conceitos postos em prática durante o desenvolvimento:
 <br />
 
 <p align="center">
-  Feito com :purple_heart:
+  Made with :purple_heart:
 </p>
