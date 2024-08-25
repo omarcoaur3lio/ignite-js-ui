@@ -25,7 +25,14 @@ export const Primary = ({ ...args }: ToastProps) => {
 
   return (
     <>
-      <Button onClick={() => updateArgs({ open: true })}>Add event</Button>
+      <Button
+        onClick={() => {
+          handleOpenChange()
+          updateArgs({ open: true })
+        }}
+      >
+        Add event
+      </Button>
       <ToastProvider>
         <Toast onOpenChange={handleOpenChange} {...args} />
       </ToastProvider>

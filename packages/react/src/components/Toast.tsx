@@ -32,7 +32,7 @@ const ToastRoot = styled(RadixToast.Root, {
   position: 'relative',
 
   '&[data-state="open"]': {
-    animation: `${slideIn} 0.3s ease-out`,
+    animation: `${slideIn} 0.2s ease-out`,
   },
   '&[data-state="closed"]': {
     animation: `${slideOut} 0.2s ease-out`,
