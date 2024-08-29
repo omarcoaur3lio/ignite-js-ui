@@ -5,7 +5,9 @@ export default {
   title: 'Form/TextInput',
   component: TextInput,
   tags: ['autodocs'],
-  args: {},
+  args: {
+    size: 'sm',
+  },
   decorators: [
     (Story) => {
       return (
